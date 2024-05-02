@@ -54,8 +54,8 @@ header{
 #divBusca{
     background-color:#E0EEEE;
     border-radius:10px;
-    width:600px;
-    height:40px;
+    width: 40%;
+    height: 40px;
     margin-top: 20px;
     margin-left: 30px;
 }
@@ -67,7 +67,7 @@ header{
     font-size: 12px;
     border:none;
     height: 40px;
-    width: 530px;
+    width: 75%;
 }
   
 #btnBusca{
@@ -75,7 +75,7 @@ header{
     float:left;
     height: 40px;
     border-radius:0 7px 7px 0;
-    width: 55px;
+    width: 18%;
     font-weight:bold;
     background:#0AA6A6;
 }
@@ -270,6 +270,11 @@ main section{
     padding: 10px;
 }
 
+#esqueceu-senha{
+    color: #0AA6A6;
+    font-weight: bold;
+}
+
 
 #cadastrar-form-titulo{
     color: #35384B;
@@ -292,4 +297,136 @@ main section{
 #cadastrar-form-button:hover{
     background-color: #1d1e25;
     cursor: pointer;
+}
+
+/* Add this at the end of your CSS file */
+@media only screen and (max-width: 1300px) {
+    .menu{
+        width: 90%;
+    }
+
+    .menu > li{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+    #titulo{
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 1045px) {
+    .menu > li{
+        margin-left: 5px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 962px) {
+    .menu > li > a > img{
+        display: none;
+    }
+
+    .menu > li{
+        font-size: 14px;
+        margin-left: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    #logo {
+      margin-left: 20px;
+    }
+
+    #icone-nx{
+        display: none;
+    }
+    
+    #divBusca {
+      width: 40%;
+      margin-left: 10px;
+    }
+
+    #txtBusca {
+        width: 75%;
+    }
+
+    #btnBusca{
+        width: 18.5%;
+    }
+
+    .opcoes-usuario > a {
+      margin-left: 15px;
+      margin-top: 20px;
+    }
+
+    .opcoes-usuario > a > img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu > li{
+        margin-left: 5px;
+    }
+
+    #titulo{
+        width: 40%;
+    }
+
+    main section{
+        display: block;
+    }
+
+    .login-formulario{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 677px) {
+    #divBusca {
+      width: 40%;
+      margin-left: 10px;
+    }
+
+    #txtBusca {
+        width: 75%;
+    }
+
+    #btnBusca{
+        width: 18.5%;
+    }
+
+    #opcoes-usuario-atendimento{
+        display: none;
+    }
+
+    #titulo{
+        width: 45%;
+    }
+
+    .opcoes-usuario{
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 594px) {
+
+    #logo{
+        margin-left: 50px;
+    }
+
+    .opcoes-usuario > a > img{
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    #divBusca{
+        display: none;
+    }
+
+    #titulo{
+        width: 54%;
+    }
 }
