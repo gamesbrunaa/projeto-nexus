@@ -215,9 +215,9 @@ main section{
     margin-top: 20px;
 }
 
-.login-form input{
+.login-form input, .login-form select{
     height: 50px;
-    border-radius: 10px;
+    border-radius: 10px; 
     border: #35384bab 1px solid;
     padding-left: 15px;
     font-size: 12px;
